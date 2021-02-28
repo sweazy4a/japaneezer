@@ -1,0 +1,132 @@
+
+/* Container */
+
+.ez-container{
+    width:100%;
+    margin:0 auto;
+    /*
+    padding-left: 150px;
+    padding-right:150px;
+    */
+}
+
+
+/* Blocks */
+
+.ez-100{
+    width:100%;
+    max-width:100%;
+    display:flex;    
+}
+
+.ez-90{
+    width:90%;
+    max-width:90%;
+    display:flex;
+}
+
+.ez-80 {
+    width:80%;
+    max-width:80%;
+    display:flex;
+}
+
+.ez-70 {
+    width:70%;
+    max-width:70%;
+    display:flex;
+}
+
+.ez-60{
+    width:60%;
+    max-width:60%;
+    display:flex;
+}
+
+.ez-50{
+    width:50%;
+    max-width:50%;
+    display:flex;
+}
+
+.ez-40{
+    width:40%;
+    max-width:40%;
+    display:flex;
+}
+
+.ez-30{
+    width:30%;
+    max-width:30%;
+    display:flex;
+}
+
+.ez-25{
+    width:25%;
+    max-width:25%;
+    display:flex;
+}
+
+.ez-20{
+    width:20%;
+    max-width:20%;
+    display:flex;
+}
+
+.ez-15{
+    width:15%;
+    max-width:15%;
+    display:flex;
+}
+
+
+
+/* $ Rows & Columns $ */
+
+.ez-row{
+    display:flex;
+    flex-direction:row;
+}
+
+.ez-row-reverse{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.ez-col{
+   display:flex;
+   flex-direction:column;
+}
+
+.ez-col-reverse{
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+
+
+/* Auto responsive */
+
+@media only screen and (max-width: 1150px) {
+
+.ez-row{
+    flex-direction:column;
+}
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .ez-50{
+        width:100%;
+        max-width:100%;
+    }
+
+    .ez-40{
+        width:100%;
+        max-width:100%;
+    }
+    
+    }

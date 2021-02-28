@@ -1,0 +1,48 @@
+/* Animate Navigation */
+  a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: orange;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+
+/* Animate Buttons */
+
+.ez-btn{
+-webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+.ez-btn:hover{
+transform:scale(1.1);
+-webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+.ez-btn-child{
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.ez-btn-child:hover{
+    transform:scale(1.1);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}

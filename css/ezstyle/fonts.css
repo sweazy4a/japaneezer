@@ -1,0 +1,54 @@
+/* Navigation */
+
+#navigation ul li a {
+    font-size:27px;
+    line-height:87px; 
+}
+
+
+
+/* Titles */
+
+h1{
+    font-family: 'Blogger Sans', sans-serif;
+    font-size:77px;
+    line-height:87px;
+  }
+  
+h2{
+   font-family: 'Blogger Sans', sans-serif;
+   font-size:40px;
+   line-height: 30px;
+  }
+  
+h3{
+    font-family: 'Blogger Sans', sans-serif;
+    font-size:30px;
+    line-height: 30px;
+}
+  
+h4{
+    font-family: 'Blogger Sans', sans-serif;
+    font-size:20px;
+    line-height: 30px;
+  }
+  
+h4{
+    font-family: 'Blogger Sans', sans-serif;
+    font-size:30px;
+    line-height: 24px;
+}
+
+  
+/* Simple text */
+
+p {
+    font-family: 'Blogger Sans', sans-serif;
+    font-size:30px; 
+    line-height: 24px;
+}
+
+strong{
+    font-size:30px; 
+}
+

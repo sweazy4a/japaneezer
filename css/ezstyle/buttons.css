@@ -1,0 +1,21 @@
+.ez-btn {
+    padding:15px 30px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    border:1px solid orange;
+    border-radius:30px;
+    background-color:green;
+}
+
+.ez-btn-child{
+    padding:15px 30px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    border:1px solid orange;
+    border-radius:30px;
+    background-color:blue;
+}
+
+
